@@ -1,46 +1,46 @@
 h1 {
   color: #ff0000;
-  font-size: 20px;
+  font-size: 16px;
 }
 p {
   color: #000000;
   font-family: "Arial", sans-serif;
-  font-size: 12px;
+  font-size: 14px;
 }
 
 img {
-  width: 300px;
+  width: 400px;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 533px) {
   h1 {
-    font-size: 24px;
-    color: blue;
+    font-size: 26px;
+    color: green;
   }
   p {
     font-size: 18px;
-    color: green;
+    color: black;
   }
   img {
-    width: 600px;
+    width: 800px;
   }
 }
 
 @media print {
   h1 {
-    color: green;
-    font-size: 32px;
+    color: r;
+    font-size: 24px;
     text-align: center;
   }
 
   p {
-    color: #000;
-    font-size: 18px;
+    color: blue;
+    font-size: 16px;
     text-align: center;
   }
 
   img {
-    width: 400px;
+    width: 500px;
     margin: 0 auto;
     display: block;
   }
