@@ -42,7 +42,7 @@ programa
 		  	escreva("\nA divisão dos números é igual a: ", div. ("\n")
 		  
 		  	escreva("deseja continuar? (s/n): ")
-		  	leia (op)
+		  	leia(op)
 		  }
 	}
 	}
